@@ -13,13 +13,13 @@ I am building this project to practice Python fundamentals while creating a tool
 * Save entries so they can be viewed later
 
 ## Version 1 Roadmap
--[] Collect information for one work shift
--[] Display a summary of the shift
--[] Calculate the hourly earnings
--[] Accept and validate multiple entires
--[] Calculate weekly totals
--[] Save and reload earnings data
--[] Add tests and complete the documentation 
+1. Collect information for one work shift
+2.  Display a summary of the shift
+3. Calculate the hourly earnings
+4. Accept and validate multiple entires
+5. Calculate weekly totals
+6. Save and reload earnings data
+7. Add tests and complete the documentation 
 
 ## Skills Practiced 
 * Python input and output
