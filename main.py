@@ -1,10 +1,22 @@
+def get_positive_number(prompt):
+    while True:
+        try:
+            value = float(input(prompt))
+
+            if value > 0:
+                return value
+
+            print("Please enter a number greater than zero.") 
+        except ValueError:
+            print("Please enter a valid number.")
+
 print("Shift Earnings Tracker")
 print()
 
 date = input("Enter the shift date: ")
 job = input("Enter the job name: ")
-hours = float(input("Enter the hours worked: "))
-earnings = float(input("Enter the amount earned: $"))
+hours = get_positive_number("Enter the hours worked: ")
+earnings = get_positive_number("Enter the amount earned: $")
 hourly_rate = earnings / hours
 
 print()
