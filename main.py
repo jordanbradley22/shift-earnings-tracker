@@ -4,7 +4,7 @@ print()
 date = input("Enter the shift date: ")
 job = input("Enter the job name: ")
 hours = input("Enter the hours worked: ")
-earnings = input("Enter the amount earned: $"
+earnings = input("Enter the amount earned: $")
 
 print()
 print("Shift Summary")
